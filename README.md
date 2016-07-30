@@ -23,8 +23,7 @@ doi:10.4225/15/5671FDEC717B4
 
 ### Contribution guidelines ###
 
-* The best route for feed back on {RCPmod} is to lookup the function authors:  
-* https://cran.r-project.org/web/packages/RCPmod/index.html  
+* The best route for feed back on {RCPmod} is to lookup the function authors: https://cran.r-project.org/web/packages/RCPmod/index.html  
 * Otherwise, feel free to suggest edits here
 
 ### Contact ###
