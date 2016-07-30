@@ -17,7 +17,9 @@ doi:10.4225/15/5671FDEC717B4
 ### Running code ###
 
 * All code and files should be cloned/downloaded to a single path
-* All scripts can then be run in full
+* The Sub-Antarctic fish analysis can be run in full
+* To properly reproduce the NSW vegetation data analysis, a cluster computer is almost certainly required (you'll need around 60-70 CPU days). If you do wish to perform such an analysis, the code and cluster scripts can be found at a separate repo: https://github.com/mitchest/rcp-cluster-parallelisation
+* Otherwise, this repo contains a synthesised version of the NSW vegetation analysis so that the input data, model specifications and diagnostics can be explored  
 
 ### Contribution guidelines ###
 
