@@ -21,6 +21,8 @@ load("NSWVeg_covariates_species.RData")
 # parameratise models -----------------------------------------------------
 # If you are seriously wanting to reproduce this analysis, you will need access to a computing cluster
 # You should plan on using ~60-70 days of CPU time, or ~8 hours on ~200 cores
+# If that's something you might want to do, then head over to this repo:
+# https://github.com/mitchest/rcp-cluster-parallelisation
 
 # Alternatively you can use the subsetting controls below to run with a subset of data
 # In that case you will want to set the arr.job=FALSE, and subset.data=TRUE with subset.size=n
