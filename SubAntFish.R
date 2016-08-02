@@ -104,7 +104,8 @@ plot.regimix(RCPsamp_fin, type="RQR", fitted.scale="log") #looks OK
 
 #Cooks Distance Plots
 #takes a while
-stability.regimix(RCPsamp_fin, oosSizeRange=c(1,2,3,4,5,6,7,8,9,10,20,30,40,50), mc.cores=1, times=500)
+tmp <- stability.regimix(RCPsamp_fin, oosSizeRange=c(1,2,3,4,5,6,7,8,9,10,20,30,40,50), mc.cores=1, times=, RCPsamp_fin$n, doPlot=FALSE)
+plot( tmp, minWidth=2, ncuts=111)
 
 # examine dispersion parameter for negative Binomial
 hist(RCPsamp_fin$coefs$disp, xlab="Dispersion Parameter", 
@@ -171,7 +172,8 @@ plot.regimix(RCPNoSamp_fin, type="RQR", fitted.scale="log")
 
 #Cooks Distance Plots
 #will take a while to run
-stability.regimix(RCPNoSamp_fin, oosSizeRange=c(1,2,3,4,5,6,7,8,9,10,20,30,40,50), mc.cores=1, times=500)
+tmp <- stability.regimix(RCPNoSamp_fin, oosSizeRange=c(1,2,3,4,5,6,7,8,9,10,20,30,40,50), mc.cores=1, times=RCPsamp_fin$n)
+plot( tmp, minWidth=2, ncuts=111)
 
 #generate bootstrap estimates of parameters
 #again may a while and get slighlty different results. To avoid load "RCPNoSamp_boots.RDS"
