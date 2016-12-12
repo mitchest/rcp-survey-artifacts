@@ -1,5 +1,5 @@
 ## Author: Mitchell Lyons (mitchell.lyons@gmail.com)
-## from Foster, Hill & Lyons 201X, JRSS
+## from Foster, Hill & Lyons, 2017, JRSS (Series C, Applied Stats)
 ## No licence, though please attribute us and publish any derivitives open source =)
 
 library(RCPmod) # v2.128
