@@ -3,7 +3,7 @@
 # README #
 
 This repo provides code and data to reproduce the analysis from:  
-Foster, Hill and Lyons (accepted) "Ecological Grouping of Survey Sites when Sampling Artefacts are Present". Journal of the Royal Statistical Society: Series C (Applied Statistics). DOI: xx.xxxxx/xxx  
+Foster, Hill and Lyons (accepted) "Ecological Grouping of Survey Sites when Sampling Artefacts are Present". Journal of the Royal Statistical Society: Series C (Applied Statistics).  
 DOI: xx.xxxxx/xxx  
 
 Vegetation data originally from:  
