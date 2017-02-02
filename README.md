@@ -3,16 +3,15 @@
 # README #
 
 This repo provides code and data to reproduce the analysis from:  
-Foster, Hill and Lyons (accepted) "Ecological Grouping of Survey Sites when Sampling Artefacts are Present". Journal of the Royal Statistical Society: Series C (Applied Statistics).  
-DOI: xx.xxxxx/xxx  
+  + Foster, Hill and Lyons (accepted) "Ecological Grouping of Survey Sites when Sampling Artefacts are Present". Journal of the Royal Statistical Society: Series C (Applied Statistics).  
+    DOI: 10.1111/rssc.12211  
 
 Vegetation data originally from:  
 http://www.bionet.nsw.gov.au/  
 
 Sub-Antarctic Fish data originally from:  
-Hill, N. and Lamb, T. (2015) HIMI Demersal Fish Update and Environmental Covariates.  
-Australian Antarctic Data Centre  
-doi:10.4225/15/5671FDEC717B4  
+  + Hill, N. and Lamb, T. (2015) HIMI Demersal Fish Update and Environmental Covariates. Australian Antarctic Data Centre  
+    DOI: s10.4225/15/5671FDEC717B4  
 
 ### Running code ###
 
